@@ -17,8 +17,8 @@ const Navbar = () => {
       </ul>
       <div className="login">
        <input type="text" placeholder="Search Books..." />
-        <button><Link to='books'>Search</Link></button>
-        <button><Link to='/login'>Login</Link></button>
+        <button className="button-primary" ><Link style={{textDecoration:'none'}} to='/books'>Search</Link></button>
+        <button className="button-primary" ><Link style={{textDecoration:'none'}} to='/login'>Login</Link></button>
       </div>
     </div>
   );

@@ -55,20 +55,3 @@
     border: 1px solid purple; /* Purple border on focus */
   }
   
-.navbar  button{
-    width: 100px;
-    height: 40px;
-    outline: none;
-    border: 1px solid rgb(116, 52, 189);
-    border-radius: 40px;
-    font-weight: 500;
-    background: white;
-    cursor: pointer;
-    margin: 32px 10px;
-    transition: background-color 0.3s;
-}
-
-.navbar button:active {
-    background-color: rgb(116, 52, 189);
-    color: white; /* Add this line to change text color on focus */ 
-  }

@@ -21,3 +21,26 @@ code {
 h1{
   font-size: 2.5rem;
 }
+.button-primary{
+  width: 100px;
+  height: 40px;
+  outline: none;
+  border: 1px solid rgb(116, 52, 189);
+  border-radius: 40px;
+  font-weight: 500;
+  background: white;
+  cursor: pointer;
+  margin: 32px 10px;
+  transition: background-color 0.3s;
+}
+
+.button-primary:active {
+  background-color: rgb(116, 52, 189);
+  color: white; /* Add this line to change text color on focus */ 
+}
+
+.button-primary:hover{
+  background-color: rgb(48, 19, 82);
+  color: white;
+}
+
