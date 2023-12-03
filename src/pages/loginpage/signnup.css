@@ -1,10 +1,21 @@
 .signup-container {
   display: flex;
+  
+  max-width: 90%;
+  margin-top: 10px;
+  margin: auto;
+  margin-top: 21px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+
 }
 .signup-img-container {
   width: 45%;
   overflow: hidden;
-  padding: 37px 75px;
+ padding-top: 50px;
+  padding-left:82px ;
 }
 .signup-img-container img {
   width: 100%;
@@ -25,6 +36,7 @@
 h2 {
   font-size: 2.5rem;
   margin-bottom: 10px;
+  color: rgb(98, 29, 103);
 }
 
 p {
@@ -55,5 +67,7 @@ p {
   outline: none;
   border-color: #371d67;
 }
+.get-started{
+  margin: auto;
+}
 
-/* Add more styles as needed */

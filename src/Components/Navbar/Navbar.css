@@ -1,57 +1,74 @@
 .navbar {
- 
   display: flex;
   justify-content: space-around;
   padding: 5px;
-  box-shadow: 14px 0px 8px 2px rgb(89, 47, 194);
+  box-shadow: 14px 0px 8px 2px rgb(160, 47, 194);
+  height: 90px;
+  width: 100%;
+  position: sticky;
+  z-index: 100;
+  top: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
+.nav-menu li a {
+  color: rgb(77, 10, 77); /* Set your default text color */
+  text-decoration: none;
+}
+
+
+.sticky {
+  background-color: black;
+}
+
+.login {
+  margin-top: -10px;
+}
+
 .nav-logo img {
   width: 200px; /* Adjust the size accordingly */
-  height: 100px; /* Maintain aspect ratio */
+  height: 80px; /* Maintain aspect ratio */
 }
-.nav-menu{
-    display: flex;
-    align-items: center;
-    list-style: none;
-    gap: 50px;
-    color: rgb(116, 52, 189);
-    font-size: 20px;
-    font-weight: 500;
-}
-
-.nav-menu li{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 3px;
-    cursor: pointer;
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 50px;
+  color: var(--primary-color);
+  font-size: 20px;
+  font-weight: 500;
 }
 
-.nav-menu hr{
-    border: none;
-    width: 80%;
-    height:3px;
-    border-radius: 10px;
-    background: rgb(116, 52, 189);
-    font-size: 20px;
-
+.nav-menu li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3px;
+  cursor: pointer;
 }
-.navbar login{
-   display: flex;
-   align-items: center;
-   
+
+.nav-menu hr {
+  border: none;
+  width: 80%;
+  height: 3px;
+  border-radius: 10px;
+  background: var(--primary-color);
+  font-size: 20px;
+}
+.navbar login {
+  display: flex;
+  align-items: center;
 }
 .navbar input[type="text"] {
-    padding: 8px;
-    font-size: 14px;
-    border: 1px solid transparent; /* Transparent border initially */
-    border-radius: 15px; /* Adjust the roundness */
-    outline: none;
-    transition: border 0.3s; /* Add transition effect for smoother appearance */
-  }
+  padding: 8px;
+  font-size: 14px;
+  border: 1px solid transparent; /* Transparent border initially */
+  border-radius: 15px; /* Adjust the roundness */
+  outline: none;
+  transition: border 0.3s; /* Add transition effect for smoother appearance */
+}
 
-  .navbar input[type="text"]:focus {
-    border: 1px solid purple; /* Purple border on focus */
-  }
-  
+.navbar input[type="text"]:focus {
+  border: 1px solid var(--primary-color); /* Purple border on focus */
+  color: var(--primary-color);
+}

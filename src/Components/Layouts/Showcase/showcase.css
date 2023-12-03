@@ -1,11 +1,19 @@
 .showcase-container {
-  height: 100vh;
+  height: 80vh;
   width: 100%;
   background-image: url("../../Assets/showcasebg2.jpg");
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
+  max-width: 90%;
+  margin: auto;
+  margin-top: 21px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  overflow: hidden;
 }
 
 .overlay {
@@ -21,9 +29,34 @@
   z-index: 1;
 }
 
-.showcase-content h1 ,.showcase-content p{
-    color: white;
-    text-align: center;
-    padding-bottom: 10px;
+.showcase-content h1,
+.showcase-content p {
+  color: white;
+  text-align: center;
+  padding-bottom: 10px;
+}
+.button-Get-Started {
+  /* Add your desired styles here */
+  background-color: #f6f6f7; /* Change the color as needed */
+  color: rgb(125, 11, 125); /* Change the text color as needed */
+  padding: 10px 20px;
+  font-size: 30px;
+  font-weight: 600;
+  border: none;
+  border-radius: 40px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  height: 53px;
+  width: 100%;
+  transition: background-color 0.3s;
 }
 
+.button-Get-Started:hover {
+  /* Add styles for hover state if desired */
+  background-color: rgb(69, 12, 69);
+}
+
+.button-Get-Started:hover a {
+  color: #f6f6f7;
+}

@@ -1,0 +1,60 @@
+/* about.css */
+
+
+
+.about {
+    max-width: 90%;
+    margin-top: 10px;
+    margin: auto;
+    margin-top: 21px;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+  
+  .title {
+    text-align: center;
+    margin-bottom: 20px;
+   
+  }
+  
+  .title h2 {
+    color: rgb(112, 19, 112);
+  }
+  
+  .about-description {
+    font-size: 16px;
+    line-height: 1.6;
+    color: #555;
+  }
+  
+  .about-description p {
+    margin-bottom: 20px;
+  }
+  
+  .about-description strong {
+    color: #333;
+  }
+  
+  .about-description ul {
+    list-style-type: none;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  
+  .about-description li {
+    margin-bottom: 10px;
+  }
+  
+  /* Style the links within the text */
+  .about-description a {
+    color: #007bff; /* Set your link color */
+    text-decoration: none;
+    transition: color 0.3s ease;
+  }
+  
+  .about-description a:hover {
+    color: #0056b3; /* Set the link color on hover */
+  }
+  

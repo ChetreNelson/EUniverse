@@ -1,7 +1,10 @@
 *{
-  margin: 0;
+  margin: 0px;
   padding: 0;
   box-sizing: border-box;
+}
+.navbar * {
+  margin: 0;
 }
 body {
   margin: 0;
@@ -25,22 +28,29 @@ h1{
   width: 100px;
   height: 40px;
   outline: none;
-  border: 1px solid rgb(116, 52, 189);
+  border: 1px solid var(--primary-color);
   border-radius: 40px;
-  font-weight: 500;
+  font-weight:600;
   background: white;
   cursor: pointer;
   margin: 32px 10px;
-  transition: background-color 0.3s;
-}
+  transition: background-color 0.4s ;
+  color: var(--primary-color);
+  
+  
 
-.button-primary:active {
-  background-color: rgb(116, 52, 189);
-  color: white; /* Add this line to change text color on focus */ 
 }
 
 .button-primary:hover{
-  background-color: rgb(48, 19, 82);
+  background-color:  rgb(98, 29, 103);
   color: white;
 }
 
+.button-primary:hover a {
+
+  color: white;
+}
+
+:root{
+  --primary-color:rgb(98, 29, 103); 
+}
